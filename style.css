@@ -1,86 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-#main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(223, 146, 2, 0.644);
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(223, 146, 2, 0.644);
 }
 
-#panel{
-    overflow: hidden;
-    width: 80%;
-    height: 80%;
-    border-radius: 10px;
-    background-color: #fff;
+#panel {
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
-#ptop{
-    padding: 0px 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 166, 0);
-
+#ptop {
+  padding: 0px 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 166, 0);
 }
-.elem{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.elem h2{
-font-weight: 500;
-font-size: 22px;
-
+.elem h2 {
+  font-weight: 500;
+  font-size: 22px;
 }
 
-
-.box{
-    color: #493d1b;
-    font-weight: 600;
-    font-size: 22px;
-    padding: 10px 20px;
-    background-color: #fff;
-    border-radius: 5px;
+.box {
+  color: #493d1b;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
-#pbtm{
-    flex-wrap: wrap;
-    display: flex;
-    padding: 20px;
-    width: 100%;
-    height: calc(100% - 100px);
+#pbtm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
 }
 
-.bubble{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: rgb(255, 166, 0);
-    color: #fff;
-    border-radius: 50%;
-    font-weight: 500;
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 166, 0);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500;
 }
-.bubble:hover{
-cursor: pointer;
-background-color: rgb(189, 123, 2);
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(189, 123, 2);
 }
